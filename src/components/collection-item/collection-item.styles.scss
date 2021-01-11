@@ -1,5 +1,5 @@
 .collection-item {
-  width: 22%;
+  width: 15vw;
   display: flex;
   flex-direction: column;
   height: 350px;
@@ -16,7 +16,7 @@
 
   .custom-button{
     width:80%;
-    opacity:0.7;
+    opacity:0;
     position:absolute;
     top:255px;
    
@@ -36,10 +36,11 @@
 
   .collection-footer {
     width: 100%;
+    padding:2%;
     height: 5%;
     display: flex;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 15px;
 
     .name {
       width: 90%;
